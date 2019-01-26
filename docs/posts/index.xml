@@ -6,7 +6,6 @@
 		<description>Recent content in Posts on Mikail Gültekin</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
 		<lastBuildDate>Sun, 22 Aug 2010 00:00:00 +0000</lastBuildDate>
 		<atom:link href="http://mikailgultekin.com/posts/index.xml" rel="self" type="application/rss+xml" />
 		
@@ -16,52 +15,8 @@
 			<pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
 			
 			<guid>http://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</guid>
-			<description>JDK6 da ise ServiceLoader gelmektedir. ServiceLoader sayesinde bir nevi DI sağlamış olmaktayız. Bunun nasıl yapacağımızı bir örnekle gösterelim.
-Uygulamanın örnek test kodlarını github üzerinden bulabilmeniz mümkündür.
-Bu örneği yapabilmek için 3 tane proje oluşturalım. Bu 3 proje ve açıklaması şu şekildedir:
-UserAuth: Arayüzün yer aldığı proje.IUserAuthService diye bir arayüz yer almakta ve bu arayüz login diye bir metot tanımı içermektedir.
-UserAuthImpl: Uygulamanın gerçekleştirildiği sınıf yer alır.
-UserAuthTest: Main sınıfının yer aldığı örnek uygulamadır.</description>
-			<content type="html"><![CDATA[<p>JDK6 da ise ServiceLoader gelmektedir. <a href="http://download.oracle.com/docs/cd/E17409_01/javase/6/docs/api/java/util/ServiceLoader.html" target="_blank">ServiceLoader</a> sayesinde bir nevi DI sağlamış olmaktayız. Bunun nasıl yapacağımızı bir örnekle gösterelim.</p>
-
-<p>Uygulamanın örnek test kodlarını <a href="http://github.com/rayyildiz/UserAuthSample" target="_blank">github</a> üzerinden bulabilmeniz mümkündür.</p>
-
-<p>Bu örneği yapabilmek için 3 tane proje oluşturalım. Bu 3 proje ve açıklaması şu şekildedir:</p>
-
-<p><strong>UserAuth</strong>: Arayüzün yer aldığı proje.IUserAuthService diye bir arayüz yer almakta ve bu arayüz login diye bir metot tanımı içermektedir.</p>
-
-<p><strong>UserAuthImpl</strong>: Uygulamanın gerçekleştirildiği sınıf yer alır.</p>
-
-<p><strong>UserAuthTest</strong>: Main sınıfının yer aldığı örnek uygulamadır.</p>
-
-<p><img src="/images/project_tree1.png" alt="Project Tree" /></p>
-
-<p>Arayüzün yer aldığı UserAuth projesinde farklı olarak META-INF/services klasörü- ve bu klasör içinde com.rayyildiz.userauth.IUserAuthService dosyası yer almaktadır. Bu dosya içine bakarsanız sadece bir satır yer almaktadır.</p>
-
-<pre><code>com.rayyildiz.userauth.impl.UserAuthService
-</code></pre>
-
-<p>ServiceLoader bu dosyalara bakarak hangi implemantosyunu yüklemesi gerektiğini anlar. UserAuth.jar implementasyonun yer aldığı UserAuthImpl.jar referans olarak bilmez. SericeLoader load sırasında bu implementasyonu arayacaktır.</p>
-
-<p>Burada asıl önemli test projemize bakalım:</p>
-<div class="highlight"><pre class="chroma"><code class="language-java" data-lang="java"><span class="kn">package</span> <span class="nn">com.rayyildiz.userauth</span><span class="o">;</span>
-
-<span class="kn">import</span> <span class="nn">java.util.Iterator</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">java.util.ServiceLoader</span><span class="o">;</span>
-
-<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Main</span> <span class="o">{</span>
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-        <span class="n">ServiceLoader</span><span class="o">&lt;</span><span class="n">IUserAuthService</span><span class="o">&gt;</span> <span class="n">serviceLoader</span> <span class="o">=</span> <span class="n">ServiceLoader</span><span class="o">.</span><span class="na">load</span><span class="o">(</span><span class="n">IUserAuthService</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>
-        <span class="n">Iterator</span><span class="o">&lt;</span><span class="n">IUserAuthService</span><span class="o">&gt;</span> <span class="n">iterator</span> <span class="o">=</span> <span class="n">serviceLoader</span><span class="o">.</span><span class="na">iterator</span><span class="o">();-</span>
-        <span class="k">while</span><span class="o">(</span><span class="n">iterator</span><span class="o">!=</span> <span class="kc">null</span> <span class="o">&amp;&amp;</span> <span class="n">iterator</span><span class="o">.</span><span class="na">hasNext</span><span class="o">()){</span>
-            <span class="n">IUserAuthService</span> <span class="n">userAuthService</span> <span class="o">=</span> <span class="n">iterator</span><span class="o">.</span><span class="na">next</span><span class="o">();</span>
-            <span class="kt">boolean</span> <span class="n">login</span> <span class="o">=</span> <span class="n">userAuthService</span><span class="o">.</span><span class="na">login</span><span class="o">(</span><span class="s">&#34;demo&#34;</span><span class="o">,</span> <span class="s">&#34;password&#34;</span><span class="o">);</span>
-            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;Login for username: demo and password:password is &#34;</span> <span class="o">+</span> <span class="n">login</span><span class="o">);</span>
-        <span class="o">}</span>
-    <span class="o">}</span>
-<span class="o">}</span></code></pre></div>
-<p>Gördüğünüz gibi test uygulaması implementasyon nesnesini görmez. ServiceLoader META-INF/services içinde yer alan dosyalara bakarak implementasyon nesnelerini örnek projenin olduğu klasörde ve CLASSPATH de arar.</p>
-]]></content>
+			<description></description>
+			<content type="html"><![CDATA[]]></content>
 		</item>
 		
 	</channel>
