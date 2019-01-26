@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on Mikail Gültekin</title>
-    <link>https://mikailgultekin.com/tags/java/</link>
+    <link>http://mikailgultekin.com/tags/java/</link>
     <description>Recent content in Java on Mikail Gültekin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 22 Aug 2010 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mikailgultekin.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mikailgultekin.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JDK6 da Dependency Injection (ServiceLoader)</title>
-      <link>https://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</link>
+      <link>http://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</link>
       <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</guid>
+      <guid>http://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</guid>
       <description>JDK6 da ise ServiceLoader gelmektedir. ServiceLoader sayesinde bir nevi DI sağlamış olmaktayız. Bunun nasıl yapacağımızı bir örnekle gösterelim.
 Uygulamanın örnek test kodlarını github üzerinden bulabilmeniz mümkündür.
 Bu örneği yapabilmek için 3 tane proje oluşturalım. Bu 3 proje ve açıklaması şu şekildedir:

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mikail Gültekin</title>
-    <link>https://mikailgultekin.com/tags/</link>
+    <link>http://mikailgultekin.com/tags/</link>
     <description>Recent content in Tags on Mikail Gültekin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 22 Aug 2010 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mikailgultekin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mikailgultekin.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Java</title>
-      <link>https://mikailgultekin.com/tags/java/</link>
+      <link>http://mikailgultekin.com/tags/java/</link>
       <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://mikailgultekin.com/tags/java/</guid>
+      <guid>http://mikailgultekin.com/tags/java/</guid>
       <description></description>
     </item>
     
