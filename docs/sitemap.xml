@@ -3,39 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</loc>
+    <loc>https://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</loc>
     <lastmod>2010-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://mikailgultekin.com/</loc>
+    <loc>https://mikailgultekin.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mikailgultekin.com/about/</loc>
+    <loc>https://mikailgultekin.com/about/</loc>
   </url>
   
   <url>
-    <loc>http://mikailgultekin.com/tags/java/</loc>
-    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://mikailgultekin.com/</loc>
+    <loc>https://mikailgultekin.com/tags/java/</loc>
     <lastmod>2010-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mikailgultekin.com/posts/</loc>
+    <loc>https://mikailgultekin.com/</loc>
     <lastmod>2010-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://mikailgultekin.com/tags/</loc>
+    <loc>https://mikailgultekin.com/posts/</loc>
+    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mikailgultekin.com/tags/</loc>
     <lastmod>2010-08-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
