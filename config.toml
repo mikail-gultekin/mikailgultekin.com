@@ -1,34 +1,20 @@
-baseURL = "https://mikailgultekin.com/"
+baseurl = "https://mikailgultekin.com/"
 languageCode = "en-us"
 title = "Mikail Gültekin"
-
 theme = "cactus"
-
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
-# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
-# copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+copyright = "This work is licensed to Mikail Gültekin" # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
-# disqusShortname = "yourdiscussshortname"
-
-[author]
-  name = "Mikail Gültekin"
-
-[blackfriday]
-  hrefTargetBlank = true
-
-[taxonomies]
-  tag = "tags"
-  category = ""  # Categories are disabled by default.
+googleAnalytics = "UA-134220309-1" # Enter your tracking code to enable Google Analytics
+# disqusShortname = "spf13" # Disable comments by leaving disqusShortname empty
 
 [params]
-	name = "John Doe"
-	description = "Describe your website"
+	name = "Mikail Gültekin"
+	description = "My Personal Blog"
 	bio = "Blogger & Programmer"
-	# Enter optionally your twitter account
-	twitter = "Your Twitter account"
+	twitter = "Your Twitter account" # Enter optionally your twitter account
 	enableRSS = true
 
 	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
