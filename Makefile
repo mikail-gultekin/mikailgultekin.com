@@ -1,5 +1,5 @@
 build:
 	hugo -d docs
 	git add .
-	git commit -m "automatıc message"
+	git commit -m "automatic message"
 	git push

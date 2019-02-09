@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Posts on Mikail Gültekin</title>
-		<link>https://mikailgultekin.com/posts/</link>
-		<description>Recent content in Posts on Mikail Gültekin</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<lastBuildDate>Sun, 22 Aug 2010 00:00:00 +0000</lastBuildDate>
-		<atom:link href="https://mikailgultekin.com/posts/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>JDK6 da Dependency Injection (ServiceLoader)</title>
-			<link>https://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</link>
-			<pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
-			
-			<guid>https://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</guid>
-			<description></description>
-			<content type="html"><![CDATA[]]></content>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>Posts on Mikail Gültekin</title>
+    <link>https://mikailgultekin.com/posts/</link>
+    <description>Recent content in Posts on Mikail Gültekin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Aug 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mikailgultekin.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JDK6 da Dependency Injection (ServiceLoader)</title>
+      <link>https://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</link>
+      <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>
