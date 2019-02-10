@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed to Mikail Gültekin</copyright>
-    <lastBuildDate>Sun, 22 Aug 2010 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mikailgultekin.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>JDK6 da Dependency Injection (ServiceLoader)</title>
-      <link>https://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</link>
-      <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
+      <title>How to Replace Hugo Theme</title>
+      <link>https://mikailgultekin.com/posts/how-to-replace-hugo-theme/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</guid>
-      <description></description>
+      <guid>https://mikailgultekin.com/posts/how-to-replace-hugo-theme/</guid>
+      <description>Go to github page of the new theme that you want to replace (in my case it is cactus theme) Run this command in root folder of your website to download the theme:  &amp;gt; git submodule add https://github.com/digitalcraftsman/hugo-cactus-theme.git themes/cactus  Replace your config.toml file with new theme&amp;rsquo;s config.toml file In the new config.toml file, change the value of &amp;lsquo;theme&amp;rsquo; parameter to your theme folder name (in this case it should be theme=&amp;ldquo;cactus&amp;rdquo;) Run this command in root folder to see your changes:  &amp;gt; hugo serve  Check your localhost webpage to see changes and you are done.</description>
     </item>
     
     <item>

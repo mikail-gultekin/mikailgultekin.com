@@ -13,7 +13,7 @@ googleAnalytics = "UA-134220309-1" # Enter your tracking code to enable Google A
 [params]
 name = "Mikail Gültekin"
 description = "My Personal Blog"
-bio = "Blogger & Programmer"
+bio = "Programmer & Blogger"
 twitter = "gultekinmikail" # Enter optionally your twitter account
 enableRSS = true
 
@@ -36,7 +36,7 @@ readMore = ""
 copyright = ""
 
 # Sharing options and author information in posts
-aboutAuthor = "Blogger & Programmer"
+aboutAuthor = "Programmer & Blogger"
 tweet = ""
 share = ""
 

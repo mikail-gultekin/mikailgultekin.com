@@ -3,8 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mikailgultekin.com/posts/jdk6-ile-dependency-injection/</loc>
-    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
+    <loc>https://mikailgultekin.com/posts/how-to-replace-hugo-theme/</loc>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -17,38 +17,38 @@
   </url>
   
   <url>
-    <loc>https://mikailgultekin.com/categories/genel/</loc>
-    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
+    <loc>https://mikailgultekin.com/categories/general/</loc>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikailgultekin.com/tags/java/</loc>
-    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
+    <loc>https://mikailgultekin.com/tags/hugo/</loc>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mikailgultekin.com/</loc>
-    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mikailgultekin.com/posts/</loc>
-    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://mikailgultekin.com/tags/</loc>
-    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://mikailgultekin.com/categories/yazilim-gelistirme/</loc>
-    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
+    <loc>https://mikailgultekin.com/tags/theme/</loc>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

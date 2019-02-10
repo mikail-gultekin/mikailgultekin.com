@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Mikail Gültekin</title>
-    <link>https://mikailgultekin.com/posts/</link>
-    <description>Recent content in Posts on Mikail Gültekin</description>
+    <title>General on Mikail Gültekin</title>
+    <link>https://mikailgultekin.com/categories/general/</link>
+    <description>Recent content in General on Mikail Gültekin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed to Mikail Gültekin</copyright>
     <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://mikailgultekin.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mikailgultekin.com/categories/general/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

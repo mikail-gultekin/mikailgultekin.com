@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Mikail Gültekin">
+<meta name="description" content="My Personal Blog">
+<meta name="generator" content="Hugo 0.53" />
+<title>How to Replace Hugo Theme</title>
+<link rel="shortcut icon" href="https://mikailgultekin.com/images/favicon.ico">
+<link rel="stylesheet" href="https://mikailgultekin.com/css/style.css">
+<link rel="stylesheet" href="https://mikailgultekin.com/css/highlight.css">
+
+
+
+<link rel="stylesheet" href="https://mikailgultekin.com/css/monosocialiconsfont.css">
+
+
+
+<link href="https://mikailgultekin.com/index.xml" rel="alternate" type="application/rss+xml" title="Mikail Gültekin" />
+
+
+<meta property="og:title" content="How to Replace Hugo Theme" />
+<meta property="og:description" content="Go to github page of the new theme that you want to replace (in my case it is cactus theme) Run this command in root folder of your website to download the theme:  &gt; git submodule add https://github.com/digitalcraftsman/hugo-cactus-theme.git themes/cactus  Replace your config.toml file with new theme&rsquo;s config.toml file In the new config.toml file, change the value of &lsquo;theme&rsquo; parameter to your theme folder name (in this case it should be theme=&ldquo;cactus&rdquo;) Run this command in root folder to see your changes:  &gt; hugo serve  Check your localhost webpage to see changes and you are done." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mikailgultekin.com/posts/how-to-replace-hugo-theme/" /><meta property="article:published_time" content="2019-02-10T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-02-10T00:00:00&#43;00:00"/>
+
+
+
+<meta itemprop="name" content="How to Replace Hugo Theme">
+<meta itemprop="description" content="Go to github page of the new theme that you want to replace (in my case it is cactus theme) Run this command in root folder of your website to download the theme:  &gt; git submodule add https://github.com/digitalcraftsman/hugo-cactus-theme.git themes/cactus  Replace your config.toml file with new theme&rsquo;s config.toml file In the new config.toml file, change the value of &lsquo;theme&rsquo; parameter to your theme folder name (in this case it should be theme=&ldquo;cactus&rdquo;) Run this command in root folder to see your changes:  &gt; hugo serve  Check your localhost webpage to see changes and you are done.">
+
+
+<meta itemprop="datePublished" content="2019-02-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-02-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="191">
+
+
+
+<meta itemprop="keywords" content="hugo,theme," />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to Replace Hugo Theme"/>
+<meta name="twitter:description" content="Go to github page of the new theme that you want to replace (in my case it is cactus theme) Run this command in root folder of your website to download the theme:  &gt; git submodule add https://github.com/digitalcraftsman/hugo-cactus-theme.git themes/cactus  Replace your config.toml file with new theme&rsquo;s config.toml file In the new config.toml file, change the value of &lsquo;theme&rsquo; parameter to your theme folder name (in this case it should be theme=&ldquo;cactus&rdquo;) Run this command in root folder to see your changes:  &gt; hugo serve  Check your localhost webpage to see changes and you are done."/>
+<meta name="twitter:site" content="@https://twitter.com/gultekinmikail/"/>
+
+
+    </head>
+<body>
+    <nav class="main-nav">
+	
+		<a href='https://mikailgultekin.com/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+
+	
+		<a class="cta" href="https://mikailgultekin.com/index.xml">Subscribe</a>
+	
+</nav>
+
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <h1>How to Replace Hugo Theme</h1>
+        <h2 class="subtitle"></h2>
+        <h2 class="headline">
+        February 10, 2019
+        <br>
+        
+        
+            
+                <a href="https://mikailgultekin.com/tags/hugo">hugo</a>
+            
+                <a href="https://mikailgultekin.com/tags/theme">theme</a>
+            
+        
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        
+
+<ul>
+<li>Go to github page of the new theme that you want to replace (in my case it is cactus theme)</li>
+<li>Run this command in root folder of your website to download the theme:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">&gt; git submodule add https://github.com/digitalcraftsman/hugo-cactus-theme.git themes/cactus</code></pre></div>
+<ul>
+<li>Replace your <strong>config.toml</strong> file with new theme&rsquo;s <strong>config.toml</strong> file</li>
+<li>In the new config.toml file, change the value of &lsquo;theme&rsquo; parameter to your theme folder name (in this case it should be theme=&ldquo;cactus&rdquo;)</li>
+<li>Run this command in root folder to see your changes:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">&gt; hugo serve</code></pre></div>
+<ul>
+<li>Check your localhost webpage to see changes and you are done.</li>
+</ul>
+
+<h3 id="how-to-remove-old-theme">How to remove old theme</h3>
+
+<ul>
+<li>Go to <strong>.gitmodules</strong> file under the root folder and delete the lines that related to old theme</li>
+<li>Go to themes folder under the root folder and delete the folder that belongs to old theme</li>
+<li>Run this command in root folder:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">&gt; git submodule update</code></pre></div>
+<h3 id="how-to-publish-your-changes-to-github">How to publish your changes to github:</h3>
+
+<ul>
+<li>Run this commands in order in root folder (Attention here: <strong>docs</strong> folder is the folder you would like to keep your built files):</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">&gt; hugo -d docs
+&gt; git add .
+&gt; git commit -m <span class="s2">&#34;automatic message&#34;</span>
+&gt; git push</code></pre></div>
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    <a href="https://twitter.com/gultekinmikail">
+    <img class="avatar" src="https://mikailgultekin.com/images/avatar.png">
+    <div>
+        <span class="dark">Mikail Gültekin</span>
+        <span>Programmer &amp; Blogger</span>
+    </div>
+    </a>
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fmikailgultekin.com%2fposts%2fhow-to-replace-hugo-theme%2f - How%20to%20Replace%20Hugo%20Theme by @gultekinmikail"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+</ul>
+
+
+
+        <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://github.com/mikail-gultekin/">
+        roundedgithub
+    </a>
+    
+    <a class="symbol" href="https://www.linkedin.com/in/mikailgultekin/">
+        roundedlinkedin
+    </a>
+    
+    <a class="symbol" href="https://twitter.com/gultekinmikail/">
+        roundedtwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2019 Mikail Gültekin
+    
+    </p>
+</footer>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://mikailgultekin.com/js/main.js"></script>
+<script src="https://mikailgultekin.com/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-134220309-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</body>
+</html>
