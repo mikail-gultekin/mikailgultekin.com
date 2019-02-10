@@ -2,8 +2,12 @@ baseurl = "https://mikailgultekin.com/"
 languageCode = "en-us"
 title = "Mikail Gültekin"
 theme = "cactus"
+
+pygmentscodefencesguesssyntax = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
+pygmentsstyle = "vs"
+
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed to Mikail Gültekin" # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
@@ -16,6 +20,7 @@ description = "My Personal Blog"
 bio = "Programmer & Blogger"
 twitter = "gultekinmikail" # Enter optionally your twitter account
 enableRSS = true
+subscribe = "RSS"
 
 # Integrate Javascript files or stylesheets by adding the url to the external assets or by
 # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -27,7 +32,6 @@ customJS  = []
 
 # Navigation links
 home = ""
-# subscribe = ""
 
 # Pagination links
 olderPosts = ""

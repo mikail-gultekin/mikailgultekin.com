@@ -10,7 +10,7 @@ categories= ["General"]
 - Run this command in root folder of your website to download the theme:
 
 ```bash
-> git submodule add https://github.com/digitalcraftsman/hugo-cactus-theme.git themes/cactus
+git submodule add https://github.com/digitalcraftsman/hugo-cactus-theme.git themes/cactus
 ```
 
 - Replace your **config.toml** file with new theme's **config.toml** file
@@ -18,7 +18,7 @@ categories= ["General"]
 - Run this command in root folder to see your changes:
 
 ```bash
-> hugo serve
+hugo serve
 ```
 
 - Check your localhost webpage to see changes and you are done.
@@ -29,15 +29,15 @@ categories= ["General"]
 - Run this command in root folder:
 
 ```bash
-> git submodule update
+git submodule update
 ```
 
 ### How to publish your changes to github: 
 - Run this commands in order in root folder (Attention here: **docs** folder is the folder you would like to keep your built files):
 
 ```bash
-> hugo -d docs
-> git add .
-> git commit -m "automatic message"
-> git push
+hugo -d docs
+git add .
+git commit -m "automatic message"
+git push
 ```
